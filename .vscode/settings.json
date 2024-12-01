@@ -1,0 +1,7 @@
+{
+    "psi-header.variables": [
+        ["projectname", "Serine"],
+        ["projectCreationYear", "2024"]
+    ],
+    "svg.preview.background": "transparent"
+}

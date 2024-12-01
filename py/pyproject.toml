@@ -1,0 +1,20 @@
+[project]
+name = "serine"
+version = "0.1.0"
+description = "Serine pre-processor language Python implementation"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.mypy]
+python_version = "3.8"
+files = ["src/serine"]
+show_error_codes = true
+pretty = true
+strict = true
+local_partial_types = true
+warn_unreachable = true
