@@ -2,10 +2,11 @@
 # File: /py/src/css.py
 # Purpose: CSS restructuring steps
 # Created: November 30, 2024
-# Modified: December 1, 2024
+# Modified: December 4, 2024
 
 import re
 from re import Match
+import re
 
 def no_where(inp: str) -> str:
     """
@@ -25,5 +26,3 @@ def no_where(inp: str) -> str:
 
     out = re.sub(pattern, expand_where, inp)
     return out
-
-#def flatten(inp: str) -> str:

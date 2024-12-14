@@ -1,20 +1,22 @@
 [project]
 name = "serine"
 version = "0.1.0"
-description = "Serine pre-processor language Python implementation"
+description = "Serine CSS pre-processor language"
 readme = "README.md"
 requires-python = ">=3.8"
+authors = [
+  { name="Brayden Regis", email="brayden.regis@gmail.com" },
+]
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 
-[tool.mypy]
-python_version = "3.8"
-files = ["src/serine"]
-show_error_codes = true
-pretty = true
-strict = true
-local_partial_types = true
-warn_unreachable = true
+[project.urls]
+Homepage = "https://ctcl.lgbt/projects/serine/"
+Issues = "https://github.com/ctcl-bregis/serine/issues"
+

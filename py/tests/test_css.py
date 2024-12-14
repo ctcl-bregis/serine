@@ -2,8 +2,7 @@
 # File: /py/tests/test_css.py
 # Purpose: Tests for the css.py module
 # Created: November 30, 2024
-# Modified: November 30, 2024
-
+# Modified: December 14, 2024
 
 from serine.css import no_where
 def test_no_where():
@@ -33,4 +32,3 @@ div.box, div.container {
 
     result = no_where(example)
     assert result == expected
-
